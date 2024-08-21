@@ -17,6 +17,6 @@ resource "spacelift_space" "dev-test88888" {
 }
 
 resource "spacelift_space" "dev-test" {
-  name = "terraform-dev-teaaagggaata"
+  name = "terraform-dev-third"
   parent_space_id = "root"
 }
