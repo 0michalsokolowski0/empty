@@ -11,12 +11,12 @@ resource "spacelift_space" "dev-test9999999" {
   parent_space_id = "root"
 }
 
-resource "spacelift_space" "dev-test88888" {
-  name = "terraform-dev-teaaahggaata"
-  parent_space_id = "root"
-}
-
-resource "spacelift_space" "dev-test" {
-  name = "terraform-dev-third"
-  parent_space_id = "root"
-}
+# resource "spacelift_space" "dev-test88888" {
+#   name = "terraform-dev-teaaahggaata"
+#   parent_space_id = "root"
+# }
+#
+# resource "spacelift_space" "dev-test" {
+#   name = "terraform-dev-third"
+#   parent_space_id = "root"
+# }
