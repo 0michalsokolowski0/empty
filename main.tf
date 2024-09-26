@@ -6,8 +6,8 @@ terraform {
   }
 }
 
-resource "spacelift_space" "dev-test9999999" {
-  name = "terraform-dev-teaaaaaata"
+resource "spacelift_space" "dev" {
+  name = "dev"
   parent_space_id = "root"
 }
 
