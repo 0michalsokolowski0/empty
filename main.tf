@@ -6,8 +6,9 @@ terraform {
   }
 }
 
-resource "spacelift_space" "something_else" {
-  name = "something_else"
-  parent_space_id = "root"
+resource "random_password" "password" {
+  length           = 16
+  special          = true
+  override_special = "!#$%&*()-_=+[]{}<>:?"
 }
 
