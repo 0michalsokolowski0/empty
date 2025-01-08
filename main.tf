@@ -6,8 +6,8 @@ terraform {
   }
 }
 
-resource "spacelift_space" "dev" {
-  name = "dev"
+resource "spacelift_space" "something_else" {
+  name = "something_else"
   parent_space_id = "root"
 }
 
