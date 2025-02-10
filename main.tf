@@ -5,12 +5,12 @@ terraform {
     }
   }
 }
-#
-# resource "random_password" "passwords" {
-#   count            = 2312
-#   length           = 32
-#   special          = true
-#   override_special = "!#$%&*()-_=+[]{}<>:?"
-# }
+
+resource "random_password" "passwords" {
+  count            = 2312
+  length           = 32
+  special          = true
+  override_special = "!#$%&*()-_=+[]{}<>:?"
+}
 
 
