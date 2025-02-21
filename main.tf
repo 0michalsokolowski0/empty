@@ -7,7 +7,8 @@ terraform {
 }
 
 resource "random_password" "passwords" {
-  count            = 2312
+  count            = 2
+
 
   length           = 31
   special          = true
